@@ -10,6 +10,7 @@ async function getWeatherData(place) {
             mode: "cors",
             headers: {
                 'key': '2bae799a7c7a42e4b8a55232242206',
+                'Access-Control-Allow-Origin': '*',
             },
        });
 
